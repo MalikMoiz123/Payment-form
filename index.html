@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div class="container">
+<form action="">
+    <h1 class ="main_heading" >Payment Form </h1>
+    <hr>
+    <h2>User Information</h2>
+    <p>
+        Name * 
+        <input type="text" required name="Name" placeholder="eg Malik moiz"> 
+    </p>
+    <p>
+        <fieldset>
+            <legend> Gender</legend>
+            male <input type="radio" name="gender" id="male" value=""> female <input type="radio">
+        </fieldset>
+    </p>
+    <p>
+        Address:
+        
+    </p>
+    <textarea name="Address" id="" cols="100" rows="10"placeholder="eg House no 81 old police line chaman phatik Quetta"></textarea>
+    <p>
+        Email
+        <input type="email" placeholder="Malikmoeez512@gmail.com">
+    </p>
+    <p>
+        Pincode
+        <input  class="pin" type="number" placeholder="0000">
+    </p>
+    <h2>
+        Payment Information
+
+    </h2>
+    <p>
+        Card type 
+        <select name="Card type" id="Card type">
+            <option value="---Select Card Type---">
+                ---Select Card Type---
+            </option>
+            <option value="Visa">
+                Visa
+            </option>
+            <option value="Master Card">
+                Master Card
+            </option>
+        </select>
+
+    </p>
+    <p>
+        Card number 
+        <input type="text" name="" id="" placeholder="111-222-333-444">
+    </p>
+<p>
+    Expiry Date
+    <input type="date">
+</p>
+<p>
+    CVV
+    <input type="number"placeholder="123455">
+</p>
+<P>
+    <button type="button" class="mmm">Pay Now</button>
+    
+</P>
+</form>
+    </div>
+</body>
+</html>
